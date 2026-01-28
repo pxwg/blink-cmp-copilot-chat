@@ -29,3 +29,11 @@ return {
   },
 }
 ```
+
+Also, in order to avoid conflicts with CopilotChat's own completion source, you should disable it by adding the following line to your CopilotChat configuration:
+```lua
+opts = {
+  -- other configurations
+  chat_autocomplete = false,
+}
+```
