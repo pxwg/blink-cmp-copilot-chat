@@ -21,11 +21,11 @@ return {
         -- Add the copilot-chat source for relevant filetype
         ["copilot-chat"] = { "copilot_c" },
       },
-    },
-    providers = {
-      copilot_c = {
-        name = "CopilotChat",
-        module = "blink-cmp-copilot-chat",
+      providers = {
+        copilot_c = {
+          name = "CopilotChat",
+          module = "blink-cmp-copilot-chat",
+        },
       },
     },
   },
